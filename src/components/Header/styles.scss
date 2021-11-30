@@ -1,0 +1,33 @@
+.my-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+
+  background: rgb(134, 134, 134);
+
+  color: #fff;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10rem;
+  }
+}
+
+.profile {
+  & span:last-child {
+    width: (2rem * 0.8);
+    height: 80%;
+    background: red;
+    border-radius: 50%;
+
+    cursor: pointer;
+  }
+}
